@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+.btn-custom {
+  background-color: #ffdace; 
+  color: #000; 
+  border: none;
+}

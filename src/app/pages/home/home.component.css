@@ -1,0 +1,55 @@
+.container-fluid {
+    --bs-gutter-x: 0;
+}
+
+.banner-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0px;
+    object-fit: cover;
+    object-position: center top;
+    color: transparent;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .banner-text h1 {
+    font-size: 3rem;
+  }
+  
+  .banner-text p {
+    font-size: 1.5rem;
+  }
+  
+  .bg-orange {
+    opacity: 1;
+    background-color: rgb(255 109 60 / var(--tw-bg-opacity));
+    background: #ff6d3c;
+    height: 5px;
+    opacity: 1;
+    border-top: none;
+    width: 5.125rem;
+}
+
+.text-orange {
+  color: #ff6d3c;
+  font-weight:700 ;
+}
