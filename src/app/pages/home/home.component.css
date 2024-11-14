@@ -53,3 +53,11 @@
   color: #ff6d3c;
   font-weight:700 ;
 }
+
+.bg-grey {
+  background-color: #f2f2f2;
+}
+
+.same-size {
+  height: 70px;
+}
