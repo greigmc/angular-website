@@ -2,6 +2,16 @@
   --bs-gutter-x: 0;
 }
 
+h1.gradient {
+  font-size: 4.6875rem;
+  font-weight: 700;
+  line-height: 1;
+  background: linear-gradient(to right, #3166ff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .banner-image {
   position: absolute;
   height: 100%;
@@ -79,6 +89,10 @@
 
 .bg-grey {
   background-color: #f2f2f2;
+}
+
+.bg-navy {
+  background-color: #00272e;
 }
 
 .bg-services {
