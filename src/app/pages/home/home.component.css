@@ -109,6 +109,28 @@ h1.gradient {
   background-image: url('https://www.pentanasolutions.com/_next/image?url=https%3A%2F%2Fadmin.pentanasolutions.com%2Fwp-content%2Fuploads%2F2024%2F03%2FGroup-594.png&w=1920&q=75');
 }
 
+.bg-grey-img {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://www.pentanasolutions.com/_next/image?url=%2Fimages%2Fcircle-bg-pattern.png&w=1920&q=75');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  transform: rotate(180deg);
+  z-index: 1; /* Ensures the background is behind the content */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  /* Add other styles for your content here */
+}
+
+
 .same-size {
   height: 70px;
 }
